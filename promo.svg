@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <!-- page background -->
+  <rect x="0" y="0" width="1280" height="800" fill="#eef1f5"/>
+
+  <!-- card (no rounded corners, no drop shadow) -->
+  <rect x="80" y="60" width="1120" height="680" fill="#ffffff"/>
+
+  <!-- icon sits here (composited in afterward), centered around x=640, y~160 -->
+
+  <!-- title + subtitle -->
+  <text x="640" y="320" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="58" fill="#15181e">ACM DL PDF Redirector</text>
+  <text x="640" y="366" text-anchor="middle" font-family="Arial" font-size="24" fill="#5c6573">Opens ACM papers in your browser&#39;s built-in PDF viewer &#8212; not ACM&#39;s eReader</text>
+
+  <!-- BEFORE box (no border, no rounded corners) -->
+  <rect x="320" y="452" width="640" height="74" fill="#ffffff"/>
+  <text x="640" y="499" text-anchor="middle" font-family="Menlo, monospace" font-size="27" fill="#4a5158">dl.acm.org/doi/<tspan fill="#d23a23" font-weight="bold">epdf</tspan>/10.1145/&#8230;</text>
+
+  <!-- arrow -->
+  <line x1="640" y1="544" x2="640" y2="570" stroke="#9aa3af" stroke-width="4"/>
+  <polygon points="628,568 652,568 640,584" fill="#9aa3af"/>
+
+  <!-- AFTER text -->
+  <text x="640" y="653" text-anchor="middle" font-family="Menlo, monospace" font-size="27" fill="#2f5a3a">dl.acm.org/doi/<tspan fill="#1e9e44" font-weight="bold">pdf</tspan>/10.1145/&#8230;</text>
+</svg>

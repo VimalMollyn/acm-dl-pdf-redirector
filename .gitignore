@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Chrome-generated artifacts from loading the unpacked extension
+_metadata/
